@@ -1,5 +1,7 @@
- // Parent cannot directly access child class attributes but child can access its attibutes as well as parent 
 
+# Inheritance
+
+```java
 class Parent {
     public void printInfo() {
         // Parent cannot directly access child class attributes
@@ -28,6 +30,12 @@ public class Main {
     }
 }
 
+```
 
-//output:
+
+# Output:
 Child's Attribute 1
+
+# Final conclusion:
+
+* Parent cannot directly access child class attributes but child can access its attibutes as well as parent 
