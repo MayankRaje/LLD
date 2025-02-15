@@ -1,4 +1,6 @@
-//
+# POLYMORPHISM 
+
+```java
  class Parent {
     public void printInfo() {
         // Parent cannot directly access child class attributes
@@ -32,14 +34,16 @@ public class Main {
         c.printChildInfo(); // Child can access its own attributes
     }
 }
- //
+ ```
 
-1-Method which has to be called is decided at rum time hence RUN TIME POLYMORPHISM
-2-decided by the obj Which is created on R.H.S
-
-OUTPUT: 
+# OUTPUT: 
 its parent
 Child's Attribute 1
 Child's Attribute 1
+
+# Final conclusion:
+* 1-Method which has to be called is decided at rum time hence RUN TIME POLYMORPHISM
+* 2-decided by the obj Which is created on R.H.S
+
 
 
