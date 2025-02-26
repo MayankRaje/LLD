@@ -608,47 +608,7 @@ this introduces extra interfaces and dependency injection management.
  
 
 **Summary of Advantages and Disadvantages of SOLID in LLD:**
-
-+--------------------+--------------------------+---------------------+
-| **Principle**      | **Advantages**           | **Disadvantages**   |
-+====================+==========================+=====================+
-| **Single           | \- Easier to maintain    | \- Can lead to many |
-| Responsibility     |                          | small classes       |
-| Principle (SRP)**  | \- Improves code clarity |                     |
-|                    |                          | \- Increased        |
-|                    | \- Better testability    | complexity          |
-+--------------------+--------------------------+---------------------+
-| **Open/Closed      | \- Encourages            | \- Can increase     |
-| Principle (OCP)**  | extensibility            | complexity          |
-|                    |                          |                     |
-|                    | \- Reduces risk of       | \- Overhead from    |
-|                    | breaking existing code   | extra classes and   |
-|                    |                          | interfaces          |
-|                    | \- Supports polymorphism |                     |
-+--------------------+--------------------------+---------------------+
-| **Liskov           | \- Subclasses can        | \- Complex          |
-| Substitution       | replace base classes     | inheritance         |
-| Principle (LSP)**  | without errors           | structures          |
-|                    |                          |                     |
-|                    | \- Encourages proper     | \- Limits           |
-|                    | inheritance              | flexibility in some |
-|                    |                          | cases               |
-+--------------------+--------------------------+---------------------+
-| **Interface        | \- Prevents unnecessary  | \- Increased number |
-| Segregation        | method implementation    | of interfaces       |
-| Principle (ISP)**  |                          |                     |
-|                    | \- Cleaner, focused      | \- Potential for    |
-|                    | interfaces               | over-engineering    |
-+--------------------+--------------------------+---------------------+
-| **Dependency       | \- Loose coupling        | \- More complex     |
-| Inversion          |                          | structure           |
-| Principle (DIP)**  | \- Easier to test        |                     |
-|                    |                          | \- Overhead of      |
-|                    | \- Increased flexibility | dependency          |
-|                    |                          | injection           |
-+--------------------+--------------------------+---------------------+
-
- 
+![image](https://github.com/user-attachments/assets/6b7a26c9-d19e-4d28-be99-6a628a526b32)
 
 **Final Thoughts:**
 
